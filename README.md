@@ -54,6 +54,6 @@ Participants are expected to have previous experience using Bash.
 
 ## Workshop Materials
 
-All Workshop materials are available at https://github.com/BGAcademy23/B3/tree/main .
+All Workshop materials are available at https://github.com/thebgacademy/B3/tree/main .
 
-The workshop will begin with a talk on which we will explain the key concepts underlying BRAKER and GALBA. Slides can be found at https://github.com/BGAcademy23/B3/blob/main/slides_bga_2023.pdf . Subsequently, we will walk through a BRAKER3 tutorial, documented in https://github.com/BGAcademy23/B3/blob/main/tutorial.md .
+The workshop will begin with a talk on which we will explain the key concepts underlying BRAKER and GALBA. Slides can be found at https://github.com/thebgacademy/B3/blob/main/slides_bga_2023.pdf . Subsequently, we will walk through a BRAKER3 tutorial, documented in https://github.com/thebgacademy/B3/blob/main/tutorial.md .
