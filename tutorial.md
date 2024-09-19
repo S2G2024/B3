@@ -279,17 +279,13 @@ Check whether the BRAKER output files in subfolders Augustus and GeneMark-* prod
 
 Hard to say. You can download gene sets of related species e.g. from NCBI Genomes, and count. Some gene sets tend to be "underannotated", i.e. they may represent rather the lower numbers of what might be realistic. Katharina usually gets nervous about more than 45000 genes and fewer than 15000 genes. These are definitely weird gene counts - but as stated before, there are cases where these are totally fine, too. Otherwise: always inspect your gene set in a Genome Browser such as the UCSC Genome Browser to identify problems.
 
-### I have long isoseq RNA-Seq transcripts, can I put them into BRAKER?
+### I have long isoseq transcripts, can I put them into BRAKER?
 
-No. But we have [other instructions](https://github.com/Gaius-Augustus/BRAKER/blob/master/docs/long_reads/long_read_protocol.md) for you. Please note: isoseq data does not always aid structural genome annotation over short read RNA-Seq data.
-
-### The BUSCO scores of my genome are higher than those of my protein, why?
-
-Some short housekeeping genes are commonly masked during repeat masking. They won't show up in a BRAKER gene set. You can manually add them from BUSCO output to a final gene set. We currently do not provide an automated workflow for this.
+There is a poster on this at https://github.com/Gaius-Augustus/BRAKER/blob/master/docs/posters/poster_PAG2024.pdf 
 
 ### I opened an issue on GitHub about BRAKER or TSEBRA 100 days ago, nobody replied, why?
 
-We are a small team of developers. We try our best and usually respond to well described and easy-to-solve issues within a rather short time frame. Solving other issues may take considerable amounts of time that we simply do not have, or they may be described in a way that we don't know what do with them... please be patient with us.
+We are a small team of developers. Funding has expired. We try our best and usually respond to well described and easy-to-solve issues within a rather short time frame. Solving other issues may take considerable amounts of time that we simply do not have, or they may be described in a way that we don't know what do with them... please be patient with us.
 
 ### I have a problem, whom do I tell?
 
