@@ -141,6 +141,7 @@ ORTHODB=/opt/BRAKER/example/proteins.fa # artificial small protein database for 
 time braker.pl --workingdir=BRAKER3 --genome=/opt/BRAKER/example/genome.fa --bam=/opt/BRAKER/example/RNAseq.bam \
     --prot_seq=${ORTHODB} --AUGUSTUS_BIN_PATH=/usr/bin/ \
     --AUGUSTUS_SCRIPTS_PATH=/usr/share/augustus/scripts/ --threads ${T} \
+    --busco_lineage=brassicales_odb10 \
     --gm_max_intergenic 10000 --skipOptimize # remember to remove both these options for real jobs!
 ```
 
