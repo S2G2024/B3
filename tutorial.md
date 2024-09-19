@@ -2,7 +2,7 @@
 
 **In VS-Code, press Ctrl+Shift+v to generate Markdown preview.**
 
-Materials for the BRAKER3 workshop within BGAcademy23 by Katharina Hoff (katharina.hoff@uni-greifswald.de).
+Materials for the BRAKER3 workshop within BGAcademy24 by Katharina Hoff (katharina.hoff@uni-greifswald.de).
 
 Please find slides for an introductory talk on genome annotation (with BRAKER, GALBA, and TSEBRA) at [slides_bga_2024.pdf](slides_bga_2024.pdf).
 
