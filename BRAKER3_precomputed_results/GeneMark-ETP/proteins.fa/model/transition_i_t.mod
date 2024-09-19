@@ -1,2 +1,2 @@
-$ToInternalExon 0.917
-$ToTerminalExon 0.083
+$ToInternalExon 0.908
+$ToTerminalExon 0.092
