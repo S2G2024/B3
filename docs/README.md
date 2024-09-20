@@ -1,6 +1,6 @@
 # Gene prediction with BRAKER3
 
-This session is part of [**Biodiversity Genomics Academy 2023**](https://BGA23.org)
+This session is part of [**Biodiversity Genomics Academy 2024**](https://BGA24.org)
 
 ## Session Leader(s)
 
