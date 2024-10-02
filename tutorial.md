@@ -197,7 +197,7 @@ Visualization of gene structures in context with extrinsic evidence is essential
 
 The UCSC Genome Browser ([paper](https://doi.org/10.1101/gr.229102), [resource](https://genome.ucsc.edu/)) is one of the most popular genome browsers. It has the advantage that you do not have to install a browser instance on your own webserver. Instead, you only need to provide a certain data structure with your target data on a webserver. The UCSC Genome Browser servers can display your data from there. The data structures are called "track data hubs" or "assembly hubs" ([paper](https://doi.org/10.1093/bioinformatics/btt637)). 
 
-MakeHub ([paper](https://doi.org/10.1016/j.gpb.2019.05.003), [software](https://github.com/Gaius-Augustus/MakeHub )) is a python script that fully automates the generation of such track data hubs for novel genomes. In the following, we will generate a simple track data hub for the genome sequence that we annotated with BRAKER3 (takes only a few seconds, **currently breaks because of some shared library loading issue**):
+MakeHub ([paper](https://doi.org/10.1016/j.gpb.2019.05.003), [software](https://github.com/Gaius-Augustus/MakeHub )) is a python script that fully automates the generation of such track data hubs for novel genomes. In the following, we will generate a simple track data hub for the genome sequence that we annotated with BRAKER3 (takes only a few seconds):
 
 
 ```
