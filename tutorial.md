@@ -6,7 +6,9 @@ Materials for the BRAKER3 workshop within BGAcademy24 by Katharina Hoff (kathari
 
 Please find slides for an introductory talk on genome annotation (with BRAKER, GALBA, and TSEBRA) at [slides_bga_2024.pdf](slides_bga_2024.pdf).
 
-Reading recommendation: [Navigating Eukaryotic Genome Annotation Pipelines: A Route Map to BRAKER, Galba, and TSEBRA (Bruna et al., 2024)](https://arxiv.org/pdf/2403.19416)
+Reading recommendation for eukaryotic genome annotation in general: [Navigating Eukaryotic Genome Annotation Pipelines: A Route Map to BRAKER, Galba, and TSEBRA (Bruna et al., 2024)](https://arxiv.org/pdf/2403.19416)
+
+Reading recommendation for **ab initio* gene predictions in mammalian genomes: [Tiberius: End-to-End Deep Learning with an HMM for Gene Prediction (Gabriel et al., 2024)](https://www.biorxiv.org/content/10.1101/2024.07.21.604459v1)
 
 In the following, we will walk through the process of genome annotation with BRAKER3 on the example of a small proportion of the *Arabidopsis thaliana* genome.
 
@@ -154,7 +156,7 @@ Let's inspect the output, the most important files are braker.gtf, Augustus/augu
 
 
 ```
-cd B3/BRAKER3_precomputed_results
+cd /workspace/B3/BRAKER3_precomputed_results
 ls -lh braker.gtf Augustus/augustus.hints.gtf GeneMark-ETP/genemark.gtf
 ```
 
@@ -163,6 +165,7 @@ The file [BRAKER3_precomputed_results/what-to-cite.txt](BRAKER3_precomputed_resu
 Usually, the `braker.gtf` is the main output. However, because of the way that TSEBRA combines the `augustus.hints.gtf` and the `genemark.gtf` file with the `hintsfile.gff`, this may not always be the optimal gene set. We can investigate this by descriptive statistics of gene sets (e.g. how many genes are in a gene set, how many transcripts, how many exons does an average transcript have?), or we measure sensivity according to a conserved gene set, e.g. BUSCO or OMArk. Running BUSCO and OMArk is covered in other BGA23 sessions. Here, we will only look at preparing the protein sequence files required to run BUSCO:
 
 ```
+cd /workspace/B3/BRAKER3_precomputed_results
 # AUGUSTUS file exists already
 ls -l Augustus/augustus.hints.aa
 # generate protein (and coding seq file) from GeneMark-ETP predictions
@@ -179,7 +182,7 @@ grep -c ">" braker.aa GeneMark-ETP/genemark.aa Augustus/augustus.hints.aa
 GALBA has a simple script to compute the ratio of mono- to multi-exonic genes (only counting one isoform if one gene has several alternative isoforms, that's why the transcript number differs from the number above for methods that contain alternative transcripts, such as AUGUSTUS and BRAKER):
 
 ```
-cd B3/BRAKER3_precomputed_results
+cd /workspace/B3/BRAKER3_precomputed_results
 wget https://raw.githubusercontent.com/Gaius-Augustus/GALBA/master/scripts/analyze_exons.py
 chmod u+x analyze_exons.py
 echo "Computing some descriptive statistics for BRAKER:"
