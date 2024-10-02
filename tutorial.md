@@ -6,6 +6,8 @@ Materials for the BRAKER3 workshop within BGAcademy24 by Katharina Hoff (kathari
 
 Please find slides for an introductory talk on genome annotation (with BRAKER, GALBA, and TSEBRA) at [slides_bga_2024.pdf](slides_bga_2024.pdf).
 
+Reading recommendation: [Navigating Eukaryotic Genome Annotation Pipelines: A Route Map to BRAKER, Galba, and TSEBRA (Bruna et al., 2024)](https://arxiv.org/pdf/2403.19416)
+
 In the following, we will walk through the process of genome annotation with BRAKER3 on the example of a small proportion of the *Arabidopsis thaliana* genome.
 
 ## Repeat masking
