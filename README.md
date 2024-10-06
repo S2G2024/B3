@@ -2,13 +2,13 @@
 
 #BGA24/sessions #GitPod #Annotation
 
-This session is part of [**Biodiversity Genomics Academy 2024**](https://thebgacademy.org)
+This session is part of [**S2G2024**]
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/thebgacademy/B3) 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/S2G2024/B3) 
 
 ## Session Leader(s)
 
-Katharina J. Hoff, Institute of Mathematics and Computer Science & Center for Functional Genomics of Microbes, University of Greifswald, Germany.
+Michael Paulini
 
 ## Description
 
